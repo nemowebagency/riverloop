@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.riverloop.it/sitemap.xml
+
+# Disallow admin and private areas (if any)
+Disallow: /admin/
+Disallow: /private/
+
+# Allow important pages
+Allow: /
+Allow: /chi-siamo
+Allow: /sviluppo-software
+Allow: /formazione
+Allow: /contattaci
+Allow: /lavora-con-noi
+
+# Crawl-delay (optional)
+Crawl-delay: 1
+
