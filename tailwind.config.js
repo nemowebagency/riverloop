@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Inter", "system-ui", "sans-serif"]
+        sans: ["Montserrat", "system-ui", "sans-serif"],
+        display: ["Zalando Sans Expanded", "system-ui", "sans-serif"]
       },
       colors: {
         riverloop: {
