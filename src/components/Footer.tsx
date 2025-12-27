@@ -16,7 +16,7 @@ export const Footer: FC = () => {
                 className="h-8 w-auto"
               />
             </Link>
-            <p className="text-sm text-slate-400">
+            <p className="text-sm text-slate-700">
               Riverloop unisce sviluppo software, formazione professionale e
               consulenza in un ecosistema digitale completo, pensato per aziende e
               talenti.
@@ -52,7 +52,7 @@ export const Footer: FC = () => {
           <div className="grid grid-cols-2 gap-8 text-sm md:grid-cols-3 md:flex-1 md:justify-end">
             <div>
               <h3 className="mb-3 font-semibold text-slate-900">Navigazione</h3>
-              <ul className="space-y-2 text-slate-400">
+              <ul className="space-y-2 text-slate-700">
                 <li>
                   <Link to="/" className="hover:text-pink-600 transition-colors">
                     Home
@@ -78,7 +78,7 @@ export const Footer: FC = () => {
 
             <div>
               <h3 className="mb-3 font-semibold text-slate-900">Link utili</h3>
-              <ul className="space-y-2 text-slate-400">
+              <ul className="space-y-2 text-slate-700">
                 <li>
                   <Link to="/termini-e-condizioni" className="hover:text-pink-600 transition-colors">
                     Termini e condizioni
@@ -104,7 +104,7 @@ export const Footer: FC = () => {
 
             <div>
               <h3 className="mb-3 font-semibold text-slate-900">Contatti</h3>
-              <div className="space-y-3 text-slate-400">
+              <div className="space-y-3 text-slate-700">
                 <div className="flex items-start gap-2">
                   <Mail className="h-4 w-4 mt-0.5 flex-shrink-0" />
                   <a

@@ -10,6 +10,8 @@ import { LavoraConNoiPage } from "./pages/LavoraConNoiPage";
 import { CookiePolicyPage } from "./pages/CookiePolicyPage";
 import { PrivacyPolicyPage } from "./pages/PrivacyPolicyPage";
 import { TerminiCondizioniPage } from "./pages/TerminiCondizioniPage";
+import { FormatempPage } from "./pages/FormatempPage";
+import { AccreditamentoRegioneSiciliaPage } from "./pages/AccreditamentoRegioneSiciliaPage";
 import { EsportsTeaserSection } from "./components/EsportsTeaserSection";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { CustomCursor } from "./components/CustomCursor";
@@ -36,6 +38,8 @@ const App: FC = () => {
         <Route path="/cookie-policy" element={<CookiePolicyPage />} />
         <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
         <Route path="/termini-e-condizioni" element={<TerminiCondizioniPage />} />
+        <Route path="/formatemp" element={<FormatempPage />} />
+        <Route path="/accreditamento-regione-sicilia" element={<AccreditamentoRegioneSiciliaPage />} />
         {/* Piccola pagina teaser interna per Esports, la CTA va comunque al sito esterno */}
         <Route path="/esports" element={<EsportsTeaserSection />} />
         </Routes>

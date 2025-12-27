@@ -277,12 +277,21 @@ export const FormazionePage: FC = () => {
               <strong>Fondo Formatemp</strong>, questi percorsi formativi sono
               accessibili senza costi diretti per i partecipanti.
             </p>
-            <div className="flex items-center gap-3 pt-2">
-              <img
-                src="/Logo-FormaTemp-ente-iscritto.png"
-                alt="Fondo Formatemp"
-                className="h-12 w-auto opacity-90"
-              />
+            <div className="flex flex-col gap-3 pt-2">
+              <div className="flex items-center gap-3">
+                <img
+                  src="/Logo-FormaTemp-ente-iscritto.png"
+                  alt="Fondo Formatemp"
+                  className="h-12 w-auto opacity-90"
+                />
+              </div>
+              <Link
+                to="/formatemp"
+                className="inline-flex items-center text-sm font-semibold text-pink-600 hover:text-pink-700 transition-colors"
+              >
+                Approfondisci
+                <ArrowRight className="ml-1 h-4 w-4" />
+              </Link>
             </div>
           </div>
 
@@ -476,6 +485,13 @@ export const FormazionePage: FC = () => {
                 permettendoci di raggiungere un pubblico più ampio con percorsi
                 riconosciuti a livello regionale.
               </p>
+              <Link
+                to="/accreditamento-regione-sicilia"
+                className="inline-flex items-center text-sm font-semibold text-pink-600 hover:text-pink-700 transition-colors mt-4"
+              >
+                Approfondisci
+                <ArrowRight className="ml-1 h-4 w-4" />
+              </Link>
             </div>
 
             <div className="flex items-center justify-center gap-4 rounded-3xl border border-slate-200 bg-white p-6">
